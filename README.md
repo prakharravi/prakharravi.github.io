@@ -3,7 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Prakhar Ravi - GST Practitioner</title>
+
+<!-- SEO (GitHub Pages friendly) -->
+<meta name="description" content="GST, ITR, DSC, MSME Registration and Legal Services by Prakhar Ravi">
+<meta name="keywords" content="GST Practitioner, ITR Filing, DSC, MSME, Tax Consultant">
+<meta name="author" content="Prakhar Ravi">
 
 <style>
 body {
@@ -12,6 +18,7 @@ body {
     background: #f4f6f9;
 }
 
+/* Smooth animation */
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(20px);}
     to {opacity: 1; transform: translateY(0);}
@@ -50,6 +57,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .services {
@@ -63,6 +71,7 @@ body {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 0 5px #ccc;
+    text-align: center;
 }
 
 .footer {
@@ -84,10 +93,8 @@ body {
 
 <body>
 
-<!-- HELLO WORLD -->
 <div class="hello">Hello World 👋</div>
 
-<!-- HEADER -->
 <div class="header">
     <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="logo">
 
@@ -96,6 +103,7 @@ body {
     <p><b>B.Com | M.Com | LL.B (Ongoing)</b></p>
     <p class="tagline">Complete Taxation & Legal Services Under One Roof</p>
 
+    <!-- GitHub friendly links -->
     <a href="tel:+916206178456" class="btn">📞 Call Now</a>
     <a href="https://wa.me/916206178456" target="_blank" class="btn">💬 WhatsApp</a>
     <a href="mailto:prakharraviadv@gmail.com" class="btn">📩 Email</a>
@@ -103,86 +111,78 @@ body {
     <p id="time"></p>
 </div>
 
-<!-- ABOUT -->
 <div class="card">
     <h2>🧩 About Me</h2>
     <p>I provide complete GST, ITR, Business Registration & Legal Compliance services with fast, reliable and affordable solutions.</p>
 </div>
 
-<!-- MY VISION -->
 <div class="card">
     <h2>🎯 My Vision</h2>
     <p>
-        My vision is to provide affordable and reliable taxation and legal services to every individual and business across India.
-        I aim to simplify compliance and help clients grow their business without stress.
+        My vision is to provide affordable and reliable taxation and legal services across India and help clients grow their business easily.
     </p>
 </div>
 
-<!-- SERVICES -->
 <div class="card">
     <h2>💼 Services</h2>
     <div class="services">
         <div class="service-box">GST Registration</div>
         <div class="service-box">GST Return Filing</div>
         <div class="service-box">Income Tax Return (ITR)</div>
-        <div class="service-box">DSC Digital Signature Certificate</div>
+        <div class="service-box">DSC Certificate</div>
         <div class="service-box">MSME / Udyam Registration</div>
         <div class="service-box">PAN & Aadhaar Services</div>
-        <div class="service-box">TDS Return & Compliance</div>
-        <div class="service-box">Company / Firm Registration</div>
-        <div class="service-box">Accounting & Compliance Services</div>
+        <div class="service-box">TDS Return</div>
+        <div class="service-box">Company Registration</div>
+        <div class="service-box">Accounting Services</div>
     </div>
 </div>
-<!-- WHY CHOOSE ME -->
+
 <div class="card">
     <h2>⚡ Why Choose Me</h2>
     <ul>
         <li>✔ Fast & Reliable Service</li>
         <li>✔ Affordable Pricing</li>
-        <li>✔ Expert GST & Tax Knowledge</li>
-        <li>✔ End-to-End Compliance Support</li>
-        <li>✔ 24x7 Client Support</li>
+        <li>✔ Expert Knowledge</li>
+        <li>✔ 24x7 Support</li>
     </ul>
 </div>
-<!-- EXPERIENCE -->
+
 <div class="card">
     <h2>📊 Experience</h2>
     <ul>
         <li>✔ 100+ ITR Filed</li>
         <li>✔ 50+ GST Clients</li>
-        <li>✔ Fast Processing (24 Hours)</li>
+        <li>✔ 24 Hours Processing</li>
         <li>✔ Software: Computax, Winman</li>
     </ul>
 </div>
 
-<!-- CONTACT -->
 <div class="card">
     <h2>📍 Contact</h2>
     <p><b>📞 Mobile:</b> +91 6206178456</p>
     <p><b>📧 Email:</b> prakharraviadv@gmail.com</p>
-    <p><b>📍 Location:</b> Patna, Bihar | Noida, Greater Noida | Karnataka | PAN India</p>
+    <p><b>📍 Location:</b> PAN India</p>
 
     <a href="tel:+916206178456" class="btn">📞 Call Now</a>
     <a href="https://wa.me/916206178456" target="_blank" class="btn">💬 WhatsApp</a>
 </div>
 
-<!-- GOOGLE FORM -->
 <div class="card">
     <h2>📝 Client Form</h2>
-    <p><b>👉 Fill form & get quick response</b></p>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEFJsdDovna1hLj2YoKBO1YR_JbjVWVOuLgbs9sUGF6FBJbA/viewform?embedded=true" 
-    width="100%" height="900" style="border:none; border-radius:10px;">
-    Loading…
+    <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLScEFJsdDovna1hLj2YoKBO1YR_JbjVWVOuLgbs9sUGF6FBJbA/viewform?embedded=true" 
+        width="100%" 
+        height="800" 
+        style="border:none; border-radius:10px;">
     </iframe>
 </div>
 
-<!-- FOOTER -->
 <div class="footer">
     © 2026 Prakhar Ravi | GST Practitioner
 </div>
 
-<!-- TIME SCRIPT -->
 <script>
 function updateTime() {
     const now = new Date();
